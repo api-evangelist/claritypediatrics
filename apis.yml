@@ -1,8 +1,14 @@
 aid: claritypediatrics
 name: Claritypediatrics
-description: 'Claritypediatrics is a company surfaced as a portfolio company of homebrew and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Clarity Pediatrics is a virtual pediatric telehealth clinic that diagnoses and treats
+  ADHD, anxiety, and childhood obesity in children ages 5-17, currently serving families in California
+  and Texas. It combines clinical evaluations, medication management, and evidence-based behavioral
+  programs — Behavioral Parent Training (BPT) and RUBI for ADHD, the SPACE program and a Teen Anxiety
+  Program for anxiety, and lifestyle medicine for obesity — delivered by licensed multispecialty
+  clinicians through video visits and weekly group sessions. It is a direct-to-consumer healthcare
+  platform (parent app + provider referral) with no public developer or API surface at this time.
+  Backed by Homebrew; added to the API Evangelist network from VC-portfolio discovery and enriched
+  from its public web presence.'
 url: https://raw.githubusercontent.com/api-evangelist/claritypediatrics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - homebrew
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/64f8cec470905fd5deb8c6eb/6806ce0e01cc922c3032e782_e96fa4d9af642dcb252a1ff0201316e9_Main%20Preview.png
 tags:
 - Company
 - Healthcare
+- Telehealth
+- Pediatrics
+- Mental Health
+- ADHD
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/claritypediatrics-domain-security.yml
 - type: Website
   url: https://www.claritypediatrics.com
+- type: SignUp
+  url: https://app.claritypediatrics.com
+- type: Support
+  url: https://claritypediatrics.zendesk.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://www.claritypediatrics.com/privacy-policy
+- type: TermsOfService
+  url: https://www.claritypediatrics.com/terms-of-use
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
